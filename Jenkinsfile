@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('Build'){
             steps {
-                sh 'mvn clean package'
+                sh '/usr/local/Cellar/maven/3.5.3/libexec/bin/mvn clean package'
             }
             post {
                 success {
