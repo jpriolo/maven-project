@@ -1,5 +1,10 @@
 ## Dockerfile_0.1.1
 
+# DOCKER TEST!!!
+hostname
+whoami
+cat /os-release
+
 ## For building war file. Onbuild is a functionality to create the war file
 From maven:3.3-jdk-8-onbuild
 
